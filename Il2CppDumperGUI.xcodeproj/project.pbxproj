@@ -40,8 +40,8 @@
 		E6C0D0D92D933E680060BA6A /* il2cpp_header_to_binja.py in Resources */ = {isa = PBXBuildFile; fileRef = E6C0D0CF2D933E680060BA6A /* il2cpp_header_to_binja.py */; };
 		E6C0D0E62D93448A0060BA6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6C0D0E42D93448A0060BA6A /* Localizable.strings */; };
 		E6C0D0E92D9344A20060BA6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6C0D0E72D9344A20060BA6A /* Localizable.strings */; };
-		E6C0D0EF2D9344F00060BA6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6C0D0EC2D9344F00060BA6A /* Localizable.strings */; };
 		E6C0D0EB2D9344CD0060BA6A /* Localization.swift in Sources */ = {isa = PBXBuildFile; fileRef = E6C0D0EA2D9344CD0060BA6A /* Localization.swift */; };
+		E6C0D0EF2D9344F00060BA6A /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = E6C0D0EC2D9344F00060BA6A /* Localizable.strings */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -244,14 +244,6 @@
 			path = ru.lproj;
 			sourceTree = "<group>";
 		};
-		E6C0D0EE2D9344F00060BA6A /* zh-Hans.lproj */ = {
-			isa = PBXGroup;
-			children = (
-				E6C0D0EC2D9344F00060BA6A /* Localizable.strings */,
-			);
-			path = "zh-Hans.lproj";
-			sourceTree = "<group>";
-		};
 		E6C0D0E12D9343F70060BA6A /* Utilities */ = {
 			isa = PBXGroup;
 			children = (
@@ -266,6 +258,14 @@
 				E6C0D0EA2D9344CD0060BA6A /* Localization.swift */,
 			);
 			path = Localization;
+			sourceTree = "<group>";
+		};
+		E6C0D0EE2D9344F00060BA6A /* zh-Hans.lproj */ = {
+			isa = PBXGroup;
+			children = (
+				E6C0D0EC2D9344F00060BA6A /* Localizable.strings */,
+			);
+			path = "zh-Hans.lproj";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -563,7 +563,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leeksov.Il2CppDumperGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laote.Il2CppDumperGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Il2CppDumperGUI/Il2CppDumperGUI-Bridging-Header.h";
@@ -596,7 +596,7 @@
 				);
 				MACOSX_DEPLOYMENT_TARGET = 12.0;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.leeksov.Il2CppDumperGUI;
+				PRODUCT_BUNDLE_IDENTIFIER = com.laote.Il2CppDumperGUI;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_OBJC_BRIDGING_HEADER = "Il2CppDumperGUI/Il2CppDumperGUI-Bridging-Header.h";

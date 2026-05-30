@@ -438,9 +438,13 @@ struct MainView: View {
                 Text("djkaty").fontWeight(.semibold) + Text(" (Il2CppInspector)")
                 Link("https://github.com/djkaty/Il2CppInspector", destination: URL(string: "https://github.com/djkaty/Il2CppInspector")!).foregroundColor(.blue)
             }
+            Group {
+                Text("Leeksov").fontWeight(.semibold) + Text(" (Original author of Il2CppDumper GUI)")
+                Link("https://github.com/Leeksov/Il2CppDumperGUI", destination: URL(string: "https://github.com/Leeksov/Il2CppDumperGUI")!).foregroundColor(.blue)
+            }
             Divider().padding(.vertical, 4)
             Text(LocalizedString("source_code")).fontWeight(.semibold)
-            Link("https://github.com/Leeksov/Il2CppDumperGUI", destination: URL(string: "https://github.com/Leeksov/Il2CppDumperGUI")!).foregroundColor(.blue)
+            Link("https://github.com/QuiYou/Il2CppDumperGUI", destination: URL(string: "https://github.com/QuiYou/Il2CppDumperGUI")!).foregroundColor(.blue)
             Spacer()
         }.padding().frame(maxWidth: .infinity, alignment: .leading)
     }
